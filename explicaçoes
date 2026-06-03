@@ -1,0 +1,13 @@
+
+
+Na atividade foi implementado o enum FurColor e a classe Cat.
+
+No enum FurColor foram criadas sete constantes para representar as possíveis cores de pelagem dos gatos. Cada constante possui um código numérico e um nome de exibição. Também foi implementado o método fromCode(), que permite localizar uma cor a partir do código informado.
+
+A classe Cat foi criada utilizando herança, estendendo a classe Animal. Foram adicionados os atributos específicos de um gato, como número de vidas, cor do pelo, tipo de ambiente, comida favorita, frequência de ronronar e informação de castração.
+
+Os métodos makeSound() e sleep() foram sobrescritos para apresentar comportamentos próprios dos gatos. Também foram criadas duas sobrecargas do método move(), permitindo representar diferentes formas de movimentação.
+
+Além disso, foram implementados os métodos purr() e loseLife(), que simulam comportamentos característicos dos gatos. O método displayInfo() foi sobrescrito para exibir tanto as informações herdadas de Animal quanto os atributos específicos da classe Cat.
+
+Os testes foram realizados criando objetos Cat com diferentes valores e executando todos os métodos implementados para verificar se as mensagens exibidas e os comportamentos estavam de acordo com o esperado.
